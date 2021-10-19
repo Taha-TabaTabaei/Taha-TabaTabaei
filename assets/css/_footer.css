@@ -1,0 +1,63 @@
+ul.footer-menu{
+    font-size: 13px;
+    list-style: none;
+    padding: 15px;
+}
+ul.footer-menu li{
+    margin-bottom: 7px;
+}
+ul.footer-menu li a{
+    color: #7d7c7c;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+ul.footer-menu li a:hover{
+    color: #484848;
+    padding-right: 5px;
+}
+.input,textarea{
+    padding: 7px;
+}
+.input-name{
+    height: 47px;
+}
+.input-name,.input-desc{
+    width: 100%;
+    border: 1px solid #b4bdff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 10px;
+    border-color: transparent;
+}
+.btn-submit{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+    padding: 8px 33px;
+    background-color: darkgreen;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+}
+.btn-send{
+    cursor: pointer;
+    border: none;
+}
+.footer{
+    background-color: #efefef;
+    border-top: 7px solid #686de0;
+    padding: 20px;
+    background-image: url(../img/backgrand.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 220px;
+}

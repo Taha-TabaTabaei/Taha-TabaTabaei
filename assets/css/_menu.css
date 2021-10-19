@@ -1,0 +1,10 @@
+.menu ul, .menu ul li {
+    display: inline;
+    margin-left: 25px;
+}
+.menu{
+    margin-top: 22px;
+}
+ul.top_nav li a:hover{
+    border-bottom: 2px solid #9797ff;
+}

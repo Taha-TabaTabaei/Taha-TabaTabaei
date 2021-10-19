@@ -1,0 +1,31 @@
+.statistic-container{
+    background-image: url(../img/6316DD.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.statistic-info{
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 15px 40px 0 rgba(0,0,0,0.08);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.statistic-info i{
+    margin: 26px 0;
+    font-size: 93px;
+    color: #1e90ff;
+}
+.statistic-info p{
+    margin-bottom: 10px;
+}
+.statistic-info:hover{
+    background-color: #1e90ff;
+    color: cornsilk;
+}
+.statistic-info:hover i{
+    color: cornsilk;
+}

@@ -1,0 +1,25 @@
+.aim-section p{
+    margin-top: 32px;
+    color: #878787;
+}
+.read-more{
+    margin-top: 32px;
+}
+.item{
+    margin-left: 14px!important;
+}
+.item img{
+    border-radius: 15px 100px 15px 100px;
+    transform: rotate(9deg);
+}
+div.items{
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 350px;
+    background-color: gray;
+    transform: rotate(-8deg);
+    border-radius: 15px 100px 15px 100px;
+    z-index: -1;
+
+}

@@ -1,0 +1,37 @@
+div.bg-linear::before{
+    position: absolute;
+    content: "";
+    height: 690px;
+    width: 1000px;
+    background-image: linear-gradient(to right, #e8eefc, #e6fafa);
+    left: 40.5%;
+    top: -27px;
+    z-index: -1;
+    border-radius: 50% 0 50% 50%;
+} 
+div.bg-linear::after{
+    content: "";
+    position: absolute;
+    width: 1000px;
+    height: 700px; 
+    background: rgb(34,171,195);
+    background: linear-gradient(220deg, rgba(34,171,195,1) 0%, rgba(36,94,145,1) 35%, rgba(209,81,151,1) 74%, rgba(122,16,16,1) 100%); 
+    left: 43.5%;
+    top: -56px;
+    z-index: -1;
+    border-radius: 50% 0 50% 50%;
+
+}
+.site-title{
+    margin: 360px 0 50px;
+}
+.site-title h1{
+    font-size: 36px;
+    line-height: 58px;
+    color: #4e4d4d;
+}
+.site-title h2{
+    font-size: 20px;
+    line-height: 58px;
+    color: #7b7676;
+}
